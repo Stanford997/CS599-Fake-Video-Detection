@@ -223,7 +223,7 @@ def xception(num_classes=1000, pretrained='imagenet'):
             "num_classes should be {}, but is {}".format(settings['num_classes'], num_classes)
 
         model = Xception(num_classes=num_classes)
-        checkpoint_path = "/Users/caozhen/PycharmProjects/BU-assignment/CS599/Project/architectures/externals/xception-43020ad28.pth"
+        checkpoint_path = "architectures/externals/xception-43020ad28.pth"
         checkpoint = torch.load(checkpoint_path)
 
         # 从检查点中加载模型权重
