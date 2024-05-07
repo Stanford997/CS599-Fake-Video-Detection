@@ -1,4 +1,4 @@
-
-
+tensorboardX
+efficientnet_pytorch
 # For downloading from google drive
 gdown
